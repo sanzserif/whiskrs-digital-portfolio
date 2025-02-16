@@ -1,10 +1,10 @@
 ---
-title: 'Guardian of the Digital Realm: Web Security'
+title: "Guardian of the Digital Realm: Web Security"
 pubDate: 2024-01-14
-author: 'Jese Leos'
-authImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png'
-image: 'image2.png'
-tags: ['code', 'security', 'tech']
+author: "Jese Leos"
+authImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+image: "image2.png"
+tags: ["code", "security", "tech"]
 slug: guardian-of-the-digital-realm-web-security
 summary: "In today's interconnected world, where data breaches and cyber threats are on the rise, web security has become paramount. As the guardians of the digital realm..."
 type: "Tutorial"

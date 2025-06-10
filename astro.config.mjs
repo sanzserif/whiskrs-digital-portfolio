@@ -9,6 +9,5 @@ import vercel from "@astrojs/vercel";
 export default defineConfig({
   site: "https://sanzserif.github.io",
   integrations: [tailwind()],
-  output: "server",
   adapter: vercel(),
 });

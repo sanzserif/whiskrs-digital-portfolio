@@ -7,9 +7,11 @@ const { pic, name, role, description, link } = Astro.props;
 ---
 
 <Card isUnderline={true}>
-  <div class="p-[60px]">
+  <div class="p-[32px]">
     <div class="flex flex-col sm:flex-row relative">
-      <picture><Image src={pic} alt={name} /></picture>
+      <picture class="rounded-full overflow-hidden w-20 h-20 min-w-[5rem]">
+        <Image src={pic} alt={name} class="w-full h-full object-cover" />
+      </picture>
       <div class="flex flex-col justify-end sm:ml-5">
         <h3 class="text-lg font-medium">{name}</h3>
         <p class="text-sm font-normal">{role}</p>

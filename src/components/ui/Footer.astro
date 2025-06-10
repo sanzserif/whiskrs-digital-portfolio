@@ -1,14 +1,22 @@
 ---
 import { Image } from "astro:assets";
-import Facebook from "../../assets/facebook.svg";
+import Instagram from "../../assets/instagram.svg";
 import Linkedin from "../../assets/linkedin.svg";
 import Logo from "../../assets/logo-alt.svg";
 import Twitter from "../../assets/twitter.svg";
 import ShortForm from "../ui/ShortForm.astro";
 
 const logos = [
-  { name: "Facebook", src: Facebook, link: "https://facebook.com" },
-  { name: "Linkedin", src: Linkedin, link: "https://linkedin.com" },
+  {
+    name: "Instagram",
+    src: Instagram,
+    link: "https://www.instagram.com/whiskrs.digital/",
+  },
+  {
+    name: "Linkedin",
+    src: Linkedin,
+    link: "https://www.linkedin.com/in/mininduvithanage/",
+  },
   { name: "Twitter", src: Twitter, link: "https://twitter.com" },
 ];
 
@@ -32,7 +40,7 @@ const links = [
         >
           <picture>
             <a href="#home">
-              <Image src={Logo} alt="Logo for Kreatif Brand" />
+              <Image src={Logo} width="200" alt="whiskrs.digital logo" />
             </a>
           </picture>
           <ul class="flex flex-col sm:flex-row gap-5">
@@ -48,7 +56,7 @@ const links = [
               })
             }
           </ul>
-          <ul class="flex gap-5">
+          <!-- <ul class="flex gap-5">
             {
               logos.map((logo) => {
                 return (
@@ -62,19 +70,21 @@ const links = [
                 );
               })
             }
-          </ul>
+          </ul> -->
         </div>
 
         <div class="flex flex-col lg:flex-row mt-[66px] mb-[51px]">
           <div
             class="flex text-center lg:text-start flex-col w-full lg:w-[30%]"
           >
-            <h3 class="mb-5 text-center md:text-left text-2xl text-green">Contact us</h3>
+            <h3 class="mb-5 text-center md:text-left text-2xl text-green">
+              Contact us
+            </h3>
             <div class="flex flex-col justify-between gap-4">
-              <span> Email: examplemail.com </span>
-              <span> Phone: +123 456 789 </span>
+              <span> Email: hello@whiskrs.digital </span>
+              <span> Phone: (+94) 76 369 1002 </span>
               <span class="lg:w-3/4">
-                Address: 1234 Street Name, City Name, Country Name
+                Address: Underground Laboratory, Bataganvila, Galle, Sri Lanka
               </span>
             </div>
           </div>
@@ -89,15 +99,13 @@ const links = [
         class="flex flex-col lg:flex-row h-20 justify-center mt-4 text-center md:justify-between md:mt-0"
       >
         <span
-          >2024 Positivus - Made With <a
+          >Made With <a
             class="underline"
             target="_blank"
             href="https://astro.build">Astro</a
-          > by 
-          <a 
-          class="underline"
-          target="_blank"
-          href="https://manulthanura.com">Manul</a
+          > by
+          <a class="underline" target="_blank" href="https://whiskrs.digital"
+            >Whiskrs.digital</a
           ></span
         >&nbsp
         <span>
@@ -108,6 +116,11 @@ const links = [
             class="underline">Olga</a
           >,
           <a
+            href="https://www.manulthanura.com  /"
+            target="_blank"
+            class="underline">Manul</a
+          >,
+          <a
             href="https://esteban-vasquez.netlify.app/"
             target="_blank"
             class="underline">Esteban</a
@@ -116,7 +129,7 @@ const links = [
           <a
             class="underline"
             href="https://creativecommons.org/licenses/by/4.0/"
-            target="_blank">Licence</a
+            target="_blank">License</a
           >
         </span>
       </div>

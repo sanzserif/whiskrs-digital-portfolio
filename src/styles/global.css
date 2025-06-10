@@ -29,7 +29,7 @@
   }
 
   :root {
-    --green: #b9ff66;
+    --green: #f5611c;
     --black: rgb(0, 0, 0);
     --dark: #191a23;
     --gray: #f3f3f3;
@@ -122,7 +122,7 @@
     }
 
     .greenhead {
-      @apply bg-green text-black rounded-[7px] px-[7px];
+      @apply bg-orange-500 text-black rounded-[7px] px-[7px];
     }
 
     .whitehead {

@@ -10,4 +10,6 @@ export default defineConfig({
   site: "https://sanzserif.github.io",
   integrations: [tailwind()],
   adapter: vercel(),
+  output: "server",
+  integrations: [tailwind()],
 });
